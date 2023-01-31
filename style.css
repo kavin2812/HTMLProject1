@@ -1,0 +1,38 @@
+html,body{
+    margin: 0 auto;
+}
+
+.sidebar{
+    background: linear-gradient(45deg, deeppink, blueviolet);
+    float:left;
+    width: 250px;
+    height: 100vh;
+    box-shadow: 0 30px 40px black;
+    padding: 10px;
+    }
+
+    .sidebar a{
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: azure;
+        font-size: 18px;
+        padding: 20px 25px;
+    }
+
+    .sidebar a:hover{
+        background: linear-gradient(90deg, orange, brown);
+        border-radius: 50px;
+        box-shadow: 0 0 5px black;
+        
+    }
+    .sidebar img{
+        height: 50px;
+        width: 50px;
+        border: 5px solid blueviolet;
+        border-radius: 250px;
+        box-shadow: 2px 0 5px black;
+        margin: 20px auto;
+        display: block;
+        
+    }
